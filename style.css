@@ -83,6 +83,10 @@ body {
   border: solid 5px white;
 }
 
+.about h1{
+  margin-top: 100px;
+}
+
 #contact {
   text-align: left;
   margin-bottom: 32px;
