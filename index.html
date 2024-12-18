@@ -1,93 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EmilioComiling</title>
   <link rel="icon" href="JayICON.png" type="image/png" sizes="128*128">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Permanent+Marker&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    
-    <div class="nav">
-      <ul>
-        <li id="home" ><a href="#home">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
+
+<body>
+
+  <div class="nav">
+    <ul>
+      <li id="home"><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <div class="wrapper">
+    <div class="view">
+      <div class="image-text centered-container">Emilio Comiling</div>
+    </div>
+    <div class="intro centered-container">Hi, welcome to my website. Thank you for visiting and Feel free to look
+      around, just don't break anything. Have a good day!
     </div>
 
-    <div class="wrapper">
-      <div class="view">
-        <div class="image-text centered-container">Emilio Comiling</div>
+    <div class="projects centered-container">
+      <h1 id="projects">Projects:</h1>
+      <div class="project">
+        <a href="https://eemeelyo.github.io/blogBracketIDE/"><img class="thumb" src="img/Blog.gif" /></a>
+        <p>
+          Blog - Installing Brackets IDE.
+        </p>
       </div>
-      <div class="intro centered-container">Hi, welcome to my website. Thank you for visiting and Feel free to look around, just don't break anything. Have a good day!
+      <div class="project">
+        <a href="https://eemeelyo.github.io/blogFood/"><img class="thumb" src="img/Food.gif" /></a>
+        <p>
+          Favorite foods - Talk about different foods.
+        </p>
       </div>
-
-      <div class="projects centered-container">
-        <h1 id="projects">Projects:</h1>
-        <div class="project">
-          <a href="https://eemeelyo.github.io/blogBracketIDE/"><img class="thumb" src="img/Blog.gif" /></a>
-          <p>
-            Blog - Installing Brackets IDE.
-          </p>
-        </div>
-        <div class="project">
-          <a href="https://eemeelyo.github.io/blogFood/"><img class="thumb" src="img/Food.gif" /></a>
-          <p>
-            Favorite foods - Talk about different foods.
-          </p>
-        </div>
-        <div class="project">
-          <a href="https://eemeelyo.github.io/Age_Calculator/?fbclid=IwAR1VUBhxF7qJ6lohjNBNyddZRP9RpnE7KePPOUXgCwd83H4mLSP1yb6KdS8"><img class="thumb" src="img/Life.gif" /></a>
-          <p>
-            Life Calculator - Check how long have you got left.
-          </p>
-        </div>
-        <div class="project">
-          <a href="https://eemeelyo.github.io/InstaReplica/"><img class="thumb" src="img/Insta.gif" /></a>
-          <p>
-            Replica landing page of Instagram
-          </p>
-        </div>
+      <div class="project">
+        <a
+          href="https://eemeelyo.github.io/Age_Calculator/?fbclid=IwAR1VUBhxF7qJ6lohjNBNyddZRP9RpnE7KePPOUXgCwd83H4mLSP1yb6KdS8"><img
+            class="thumb" src="img/Life.gif" /></a>
+        <p>
+          Life Calculator - Check how long have you got left.
+        </p>
       </div>
+      <div class="project">
+        <a href="https://eemeelyo.github.io/InstaReplica/"><img class="thumb" src="img/Insta.gif" /></a>
+        <p>
+          Replica landing page of Instagram
+        </p>
       </div>
-
-      <div class="about-me centered-container">
-        <h1 class="about">About me: </h1>
-        <p>Hardworking, Hungry and Eager to be better. You reap what you sow. I started my journey in programming with the Front End side of development using HTML and CSS, wherein along the course I built some static websites and then making them responsive. At the end of the course I was assigned to replicate the landing page of Instagram that will also cater to different display sizes and devices. Furthermore I went  on to continue in learning JavaScript while at the same time exploring other programming languages like Python in order to expand my knowledge and experiences of different syntax's. Then when I started learning Wordpress I came across to the logic that I needed to learn some backend syntax in order to fully utilize it's capability in building websites, which is why I also started learning the backend programming languages of PHP and MySQL.<br><br>
-
-          I trully believe in the process of learning thru working, which is why I am really looking forward to be given an opportunity to work with highly skilled developers that has been providing great content for their customers. I know that given a chance I will learn a'lot and improve to an industry standard of competence to become a better team player for the company and in return I can bring out positive results for the outcome ofthe projects.</p>
-
-      </div>
-
-      <div class="contact-me centered-container">
-      <h1 id="contact">Contacts: </h1>
-        <h2>Get In Touch</h2>
-        <a href="mailto:ecomiling@rocketmail.com">EMAIL</a>
-        <h3>Please do send me an email for any queries.</h3>
-
-        <form id="contact-form" method="post" action="contactFormHandler.php">
-        <input name="email" type="text" class="form-control" placeholder="Your Email" required><br><input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
-          <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea><br>
-          <input type="submit" class="submit" value="SEND MESSAGE">
-        </form>
-
-        <div class="onlinePro">
-        <h3>You can also check my online profiles and see as to what I have been up to. </h3>
-        <div class="bottom-container">
-          <a class="footer-link" href="https://www.linkedin.com/in/emilio-comiling-393717b4/"><img src="img/linkedin.png" width="30" height="30"></a>
-          <a class="footer-link" href="https://twitter.com/J213R"><img src="img/twitter.png" width="30" height="30"></a>
-          <a class="footer-link" href="https://emiliobc.github.io/EmilioPortfolio/"><img src="img/JayICON.png" width="30" height="30"></a>
-          <a class="footer-link" href="https://github.com/EmilioBC"><img src="img/github.png" width="30" height="30"></a>
-          <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-          <p class="reserve">© 2020 Emilio Comiling Jr.</p>
-        </div>
-        </div>
     </div>
   </div>
-  </body>
+
+  <div class="about-me centered-container">
+    <h1 id="about">About me: </h1>
+    <p>Hardworking, Hungry and Eager to be better. You reap what you sow. I started my journey in programming with the
+      Front End side of development using HTML and CSS, wherein along the course I built some static websites and then
+      making them responsive. At the end of the course I was assigned to replicate the landing page of Instagram that
+      will also cater to different display sizes and devices. Furthermore I went  on to continue in learning JavaScript
+      while at the same time exploring other programming languages like Python in order to expand my knowledge and
+      experiences of different syntax's. Then when I started learning Wordpress I came across to the logic that I needed
+      to learn some backend syntax in order to fully utilize it's capability in building websites, which is why I also
+      started learning the backend programming languages of PHP and MySQL.<br><br>
+
+      I trully believe in the process of learning thru working, which is why I am really looking forward to be given an
+      opportunity to work with highly skilled developers that has been providing great content for their customers. I
+      know that given a chance I will learn a'lot and improve to an industry standard of competence to become a better
+      team player for the company and in return I can bring out positive results for the outcome ofthe projects.</p>
+  </div>
+  
+  <div>
+    <h1 id="contact" class="contact-me centered-container">Contact</h1>
+    <form action="https://formspree.io/f/mjkvqlaw" method="POST">
+      <label for="email">Your Email</label>
+      <input type="email" name="email">
+      <label for="message">Your Message</label>
+      <textarea name="message"></textarea>
+      <!-- your other form fields go here -->
+      <button type="submit">Send</button>
+  </form>
+  <div class="contact-me centered-container">
+    <div class="onlinePro">
+      <h3>You can also check my online profiles and see as to what I have been up to. </h3>
+      <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/emilio-comiling-393717b4/"><img src="img/linkedin.png"
+            width="30" height="30"></a>
+        <a class="footer-link" href="https://twitter.com/J213R"><img src="img/twitter.png" width="30" height="30"></a>
+        <a class="footer-link" href="https://emiliobc.github.io/EmilioPortfolio/"><img src="img/JayICON.png" width="30"
+            height="30"></a>
+        <a class="footer-link" href="https://github.com/EmilioBC"><img src="img/github.png" width="30" height="30"></a>
+        <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel
+            perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <p class="reserve">© 2020 Emilio Comiling Jr.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+</body>
+
 </html>
